@@ -1,0 +1,34 @@
+user-service/
+│
+├── src/
+│   ├── config/
+│   │   ├── db.js             # Database connection configuration
+│   │   └── server.js         # Server configuration (port, middleware)
+│   │
+│   ├── controllers/
+│   │   └── userController.js  # User-related request handlers
+│   │
+│   ├── models/
+│   │   └── userModel.js       # User schema and model definitions
+│   │
+│   ├── routes/
+│   │   └── userRoutes.js       # API route definitions for user-related endpoints
+│   │
+│   ├── middleware/
+│   │   └── authMiddleware.js    # Authentication and authorization middleware
+│   │
+│   ├── services/
+│   │   └── userService.js       # Business logic related to user operations
+│   │
+│   ├── utils/
+│   │   └── validation.js        # Input validation functions
+│   │
+│   └── app.js                  # Main application entry point
+│
+├── tests/
+│   └── user.test.js             # Unit and integration tests for user service
+│
+├── .env                          # Environment variables (e.g., DB URI, JWT secret)
+├── .gitignore                    # Files and directories to ignore in Git
+├── package.json                  # Project metadata and dependencies
+└── README.md                     # Project documentation
